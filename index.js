@@ -3,3 +3,7 @@ function lowerCaseDrivers(array) {
   const newarr = array.map(function (element) { return element.toLowerCase(); })
   return newarr
 }
+
+function nameToAttributes(array) {
+  const newarr = array.map(function (element) { return })
+}
