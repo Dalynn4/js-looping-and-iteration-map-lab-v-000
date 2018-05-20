@@ -8,7 +8,9 @@ function nameToAttributes(array) {
  const targetarray = []
  for (const element of array) {
    const name = element.split(" ");
-   const fullname = { firstName[name[0]], lastName[name[1]] }
+   const fullname = {}
+   fullname[firstName] = name[0]
+   fullname[lastName] = name[1]
    targetarray.push(fullname)
  }
  return targetarray
