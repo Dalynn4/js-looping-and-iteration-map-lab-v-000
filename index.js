@@ -17,5 +17,8 @@ function nameToAttributes(array) {
 }
 
 function attributesToPhrase(array) {
-  
+  const newarr = array.map(function (element) { return element.name + "is from" + element.hometown})
+  for (const element of newarr) {
+    return element
+  }
 }
