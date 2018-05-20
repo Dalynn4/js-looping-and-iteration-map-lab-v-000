@@ -5,9 +5,10 @@ function lowerCaseDrivers(array) {
 }
 
 function nameToAttributes(array) {
+ const targetarray = []
  for (const element of array) {
    const name = element.split(" ");
-   const firstName
+   const fullname = { firstName[name[0]]
  }
   
 }
