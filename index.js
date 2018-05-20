@@ -5,5 +5,6 @@ function lowerCaseDrivers(array) {
 }
 
 function nameToAttributes(array) {
-  const newarr = array.map(function (element) { return element.})
+  const newarr = array.map(function (element) { return element.split(" "); })
+  return newarr
 }
