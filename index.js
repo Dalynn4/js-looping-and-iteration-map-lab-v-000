@@ -5,6 +5,6 @@ function lowerCaseDrivers(array) {
 }
 
 function nameToAttributes(array) {
- for ()
+ for (const element of array)
   
 }
