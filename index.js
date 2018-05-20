@@ -15,3 +15,7 @@ function nameToAttributes(array) {
  }
  return targetarray
 }
+
+function attributesToPhrase(array) {
+  
+}
